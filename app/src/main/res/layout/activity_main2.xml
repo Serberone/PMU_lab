@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/back">
+
+    <TextView
+        android:id="@+id/titleW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Погода в выбранном городе"
+        android:textColor="@color/black"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Узнать погоду"
+        android:layout_below="@id/user_field"
+        android:layout_marginTop="50sp"
+        android:layout_marginHorizontal="130sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="100sp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_below="@id/titleW"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Название города"
+        android:background="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

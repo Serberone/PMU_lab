@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Прогноз погоды</string>
+    <string name="title_home">Домашняя страница</string>
+    <string name="title_dashboard">Самокаты</string>
+    <string name="title_map">Карта</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
